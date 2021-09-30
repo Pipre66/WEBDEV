@@ -1,0 +1,22 @@
+body{
+overflow: hidden;
+min-height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}#scene{
+    position: relative;
+    transform-style: preserve-3d;
+}
+
+#cube{
+    width: 6em;
+    height: 6em;
+    transform-style: preserve-3d;
+    position: absolute;
+    bottom: -3em;
+    left: -3em;
+    animation: turn 3s infinite;
+}
